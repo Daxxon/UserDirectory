@@ -9,7 +9,9 @@ app.engine('mustache', mustacheExpress());
 app.set('views', './views');
 app.set('view engine', 'mustache');
 
-app.use(morgan("combined"));
+// app.use(morgan("combined"));
+// app.use(morgan("tiny"));
+
 app.use(express.static("public"));
 
 app.get('/', (req, res) => {

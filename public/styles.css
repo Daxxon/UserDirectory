@@ -14,14 +14,16 @@ body {
 }
 
 #eduAndSkillsBox {
-  width: 170px;
-  border-style: solid;
-  border-width: thin;
-  border-color: grey;
+  width: 120px;
+  height: 300px;
+  /*border-style: solid;*/
+  /*border-width: thin;*/
+  /*border-color: grey;*/
   font-family: sans-serif;
   font-weight: bolder;
   text-align: right;
   float: left;
+  padding-right: 50px;
 }
 
 
@@ -36,21 +38,12 @@ h1 {
 #humanBox {
   padding: 0 100px;
   width: 600px;
-  border-style: solid;
-  border-color: grey;
-  border-width: 1px;
+  /*border-style: solid;*/
+  /*border-color: grey;*/
+  /*border-width: 1px;*/
   height: 400px;
   /*display: flex;*/
   /*flex-flow: row wrap;*/
-}
-
-#userAddress {
-  /*width: 200px;*/
-}
-
-#userAddress p {
-  width: 300px;
-  margin:
 }
 
 #humanPicture {
@@ -86,12 +79,17 @@ h1 {
   /*margin: 50px 0;*/
 }
 
+#userAddress p {
+  width: 300px;
+  margin:
+}
+
 .userBox {
   width: 250px;
-  border-color: grey;
-  border-radius: 5px;
-  border-width: thin;
-  border-style: solid;
+  /*border-color: grey;*/
+  /*border-radius: 5px;*/
+  /*border-width: thin;*/
+  /*border-style: solid;*/
   margin: 5px;
 }
 
@@ -100,5 +98,5 @@ h1 {
 }
 
 #userEduAndSkillsBox {
-
+  font-family: sans-serif;
 }

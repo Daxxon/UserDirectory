@@ -16,12 +16,18 @@
       <div id="eduAndSkillsBox">
         <!-- <div>Education</div>
         <div>Skills</div> -->
-        <p>Education</p>
+        {{#university}}
+          <p>Education</p>
+        {{/university}}
         <p>Skills</p>
       </div>
       <div id="userEduAndSkillsBox">
-        <p>I am education</p>
-        <p>I am skills</p>
+        {{#university}}
+          <p>{{university}}</p>
+        {{/university}}
+        {{#skills}}
+          <p>{{.}}</p>
+        {{/skills}}
       </div>
     </p>
   </body>
